@@ -1,0 +1,24 @@
+.cart-widget {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .cart-widget:hover {
+    color: #ccc;
+  }
+  
+  .cart-widget-notification {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 0.75rem;
+    padding: 2px 5px;
+    border-radius: 50%;
+  }
+  
