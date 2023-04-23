@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import NavBar from './components/NavBar';
-import CartWidget from './components/CartWidget';
-import ItemListContainer from './components/ItemListContainer';
-import ItemDetailContainer from './components/ItemDetailContainer'; // Importa ItemDetailContainer
-import Categories from './components/Categories';
+import NavBar from './components/navBar/NavBar';
+import CartWidget from './components/cartWidget/CartWidget';
+import ItemListContainer from './components/itemListContainer/ItemListContainer';
+import ItemDetailContainer from './components/itemDetailContainer/ItemDetailContainer'; // Importa ItemDetailContainer
+import Categories from './components/categories/Categories';
 
 import About from './pages/About';
 import Contact from './pages/Contact';
