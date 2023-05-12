@@ -20,7 +20,7 @@ function App() {
             <Route index element={<ItemListContainer greeting="Bienvenido a nuestra tienda" />} />
             <Route path="/acerca" element={<About />} />
             <Route path="/contacto" element={<Contact />} />
-            <Route path="/product/:id" element={<ItemDetailContainer />} /> {/* Agrega la ruta para ItemDetailContainer */}
+            <Route path="/product/:nombre" element={<ItemDetailContainer />} /> {/* Agrega la ruta para ItemDetailContainer */}
             <Route path="*" element={<h1>Página no encontrada</h1>} />
           </Routes>
         </main>

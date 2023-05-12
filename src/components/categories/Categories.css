@@ -13,22 +13,31 @@
     cursor: pointer;
   }
   
-  .verano {
-    background-color: #ffcc00;
-    color: #ffffff;
-  }
-  
-  .invierno {
-    background-color: #3399ff;
-    color: #ffffff;
-  }
-  
-  .otono {
-    background-color: #ff9900;
-    color: #ffffff;
-  }
-  
-  button:hover {
-    opacity: 0.8;
-  }
-  
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.category-buttons button {
+  background-color: #36a8ff;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.category-buttons button:hover {
+  background-color: #1e7dbb;
+}
+
+.category-buttons button i {
+  font-size: 1.2rem;
+}

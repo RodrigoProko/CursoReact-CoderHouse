@@ -1,13 +1,15 @@
+
 import React from 'react';
 import './Categories.css';
 
 const Categories = ({ onCategoryClick }) => {
   return (
     <div className="category-buttons">
-      <button onClick={() => onCategoryClick()}>Todos</button>
-      <button className="verano" onClick={() => onCategoryClick('verano')}>Verano</button>
-      <button className="invierno" onClick={() => onCategoryClick('invierno')}>Invierno</button>
-      <button className="otono" onClick={() => onCategoryClick('otoño')}>Otoño</button>
+      <button onClick={() => onCategoryClick()}><i className="fa fa-list"></i> Todos</button>
+      <button className="aventura" onClick={() => onCategoryClick('Aventura')}><i className="fa fa-compass"></i> Aventura</button>
+      <button className="disparos" onClick={() => onCategoryClick('Disparos')}><i className="fa fa-crosshairs"></i> Disparos</button>
+      <button className="accion" onClick={() => onCategoryClick('Accion')}><i className="fa fa-fighter-jet"></i> Accion</button>
+      <button className="rol" onClick={() => onCategoryClick('Rol')}><i className="fa fa-user-secret"></i> Rol</button>
     </div>
   );
 };
